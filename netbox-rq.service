@@ -7,7 +7,7 @@
 # Description:       NetBox Request Queue Worker
 ### END INIT INFO
 
-SCRIPT='/opt/netbox && /opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py rqworker'
+SCRIPT='cd /opt/netbox && /opt/netbox/venv/bin/python3 /opt/netbox/netbox/manage.py rqworker'
 RUNAS=netbox
 PIDFILE=/var/tmp/netbox-rq.pid
 LOGFILE=/var/log/netbox-rq.log
