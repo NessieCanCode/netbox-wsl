@@ -9,7 +9,7 @@ The complete documentation for NetBox can be found at Read the Docs. A public de
 netbox-wsl, are modifications and documented setting changes to allow netbox to run on on (Ubuntu 20.04 LTS) WSL
 
 1. sudo nano /etc/redis/redis.conf
-2. Find supervised no line and change to supervised systemd
+2. Find "supervised no" line and change to supervised systemd
 3. sudo service redis-server start
 4. sudo chmod +x netbox-rq.service netbox.service
 5. sudo update-rc.d netbox-rq.service defaults && sudo update-rc.d netbox.service defaults
