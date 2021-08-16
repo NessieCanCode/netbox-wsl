@@ -17,4 +17,4 @@ netbox-wsl, are modifications and documented setting changes to allow netbox to 
 7. sudo touch /var/log/netbox-rq.log && sudo chown netbox:netbox /var/log/netbox-rq.log
 8. sudo touch /var/tmp/netbox.pid && sudo chown netbox:netbox /var/tmp/netbox.pid
 7. sudo touch /var/log/netbox.log && sudo chown netbox:netbox /var/log/netbox.log
-8. sudo chown -R /opt/netbox/
+8. sudo chown -R netbox:netbox /opt/netbox/
