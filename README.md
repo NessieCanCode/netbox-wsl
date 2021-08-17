@@ -1,6 +1,8 @@
 # netbox-wsl
 
-This repository is intended to facilitate installation of the popular NetBox DCIM/IPAM on Windows 10 using WSL (Ubuntu 20.04 LTS)
+This repository is intended to facilitate installation of the popular NetBox DCIM/IPAM on Windows 10 using WSL (Ubuntu 20.04 LTS).
+
+These are the extra steps taken:
 
 1. sudo nano /etc/redis/redis.conf
 2. Find "supervised no" line and change to supervised systemd
