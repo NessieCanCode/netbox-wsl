@@ -7,7 +7,7 @@ These are the extra steps taken:
 1. sudo nano /etc/redis/redis.conf
 2. Find "supervised no" line and change to supervised systemd
 3. sudo service redis-server start
-4. Copy /etc/init.d/ content from this github to WSL instance using '\\wsl$\{Distro}\home\{username}'
+4. Copy /etc/init.d/ content from this github to WSL instance using \\wsl$\'{Distro}\home\{username}
 5. sudo cp ~\netbox-rq.service /etc/init.d/
 6. sudo cp ~\netbox.service /etc/init.d/
 7. sudo chmod +x netbox-rq.service netbox.service
