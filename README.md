@@ -2,7 +2,7 @@
 
 This repository is intended to facilitate installation of the popular NetBox DCIM/IPAM on Windows 10 using WSL (Ubuntu 20.04 LTS).
 
-This experimental, and not full supported.
+This is experimental, and not full supported.
 
 These are the extra steps taken:
 
